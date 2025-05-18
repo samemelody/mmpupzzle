@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="22" />
+6-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+8-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:4:3-78
+9-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:4:20-75
+10
+11    <uses-feature android:glEsVersion="0x00030000" />
+11-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+11-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+12    <uses-feature
+12-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+13        android:name="android.hardware.vulkan.version"
+13-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+14        android:required="false" />
+14-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+15    <uses-feature
+15-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+16        android:name="android.hardware.touchscreen"
+16-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+17        android:required="false" />
+17-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+18    <uses-feature
+18-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+19        android:name="android.hardware.touchscreen.multitouch"
+19-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+20        android:required="false" />
+20-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+21    <uses-feature
+21-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+22        android:name="android.hardware.touchscreen.multitouch.distinct"
+22-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+23        android:required="false" />
+23-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+24
+25    <application android:extractNativeLibs="true" >
+25-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:10:3-26:17
+25-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+26        <meta-data
+26-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+27            android:name="unity.splash-mode"
+27-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+28            android:value="0" />
+28-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+29        <meta-data
+29-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+30            android:name="unity.splash-enable"
+30-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+31            android:value="True" />
+31-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+32        <meta-data
+32-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+33            android:name="unity.launch-fullscreen"
+33-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+34            android:value="True" />
+34-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+35        <meta-data
+35-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+36            android:name="unity.render-outside-safearea"
+36-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+37            android:value="True" />
+37-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+38        <meta-data
+38-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+39            android:name="notch.config"
+39-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+40            android:value="portrait|landscape" />
+40-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+41        <meta-data
+41-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+42            android:name="unity.auto-report-fully-drawn"
+42-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+43            android:value="true" />
+43-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+44
+45        <activity
+45-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:5-25:16
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:15-68
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:180-361
+48            android:exported="true"
+48-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:433-456
+49            android:hardwareAccelerated="false"
+49-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:397-432
+50            android:launchMode="singleTask"
+50-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:148-179
+51            android:resizeableActivity="false"
+51-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:362-396
+52            android:screenOrientation="portrait"
+52-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:111-147
+53            android:theme="@style/UnityThemeSelector" >
+53-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:17:69-110
+54            <intent-filter>
+54-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:18:7-21:23
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:19:9-69
+55-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:19:19-66
+56
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:20:9-61
+57-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:20:17-58
+58            </intent-filter>
+59
+60            <meta-data
+60-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+61                android:name="unityplayer.UnityActivity"
+61-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+62                android:value="true" />
+62-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+63            <meta-data
+63-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+64                android:name="notch_support"
+64-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+65                android:value="true" />
+65-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+66
+67            <layout
+67-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:24:7-129
+68                android:defaultHeight="1920px"
+68-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:24:45-75
+69                android:defaultWidth="1080px"
+69-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:24:15-44
+70                android:minHeight="500px"
+70-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:24:101-126
+71                android:minWidth="300px" />
+71-->C:\Users\lizhuo\My project (1)\app\unityLibrary\src\main\AndroidManifest.xml:24:76-100
+72        </activity>
+73    </application>
+74
+75</manifest>
